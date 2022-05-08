@@ -1,4 +1,4 @@
-# Relogio Analogico
+# Relogio Analógico
 
 <img src="./img/Relogio.jpg" alt="IMG-RELOGIO">
 
@@ -8,7 +8,7 @@
 
 ## 💻 Sobre o Projeto
 
-Este projeto trata-se de um relogio analogico com responsividade e animações no modo dark,  teste o modo dark, espero que tenha curta 😉
+Este projeto trata-se de um relogio analógico com responsividade e animações no modo dark, faça o teste no modo dark! Espero que tenha curta 😉
 
 <br>
 
