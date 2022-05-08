@@ -8,7 +8,7 @@
 
 ## 💻 Sobre o Projeto
 
-Este projeto trata-se de um relogio analógico com responsividade e animações no modo dark, faça o teste no modo dark! Espero que tenha curta 😉
+Este projeto trata-se de um relogio analógico com responsividade e animações no modo dark, faça o teste no modo dark e para ter uma experiência melhor, apague as luzes e veja a mágica! Espero que tenha curta 😉
 
 <br>
 
