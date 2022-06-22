@@ -1,7 +1,6 @@
 # Relogio Analógico
 
-<img src="./img/Relogio.jpg" alt="IMG-RELOGIO">
-
+<img src="./img/Relogio.gif" alt="IMG-RELOGIO">
 
 > Projeto finalizado!
 <br>

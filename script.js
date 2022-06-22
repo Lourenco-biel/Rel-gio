@@ -6,8 +6,9 @@ let hElement = document.querySelector('.p_h')
 let rElement = document.querySelector('.relogio')
 let dElement = document.querySelector('.digital') 
 let textElement = document.querySelector('.titulo')
-let buton1Element = document.querySelector('.button-dark')
-let buton2Element = document.querySelector('.button-light')
+let buton1Element = document.querySelector('.toggler')
+let buton2Element = document.querySelector('.toggler')
+let ballElement = document.querySelector('.ball')
  
 
 
@@ -33,6 +34,15 @@ function fixZero(time) {
   return time < 10 ? `0${time}` : time
 }
 
+function checkFluency(){
+    let checkbo = document.getElementById('checkbox')
+    if(checkbo.checked != true ){
+        
+        light()
+    }else{
+        noturno()
+    }
+}
 
 
 function noturno(){
@@ -45,14 +55,13 @@ function noturno(){
         textElement.style.animation = `neon 7s alternate infinite ease-in-out`,
         document.body.style.backgroundColor = `black`,
         buton1Element.style.border = `1px solid blue`,
-        buton1Element.style.color = 'blue',
         buton1Element.style.animation = `neon 7s alternate infinite ease-in-out`,
         buton1Element.style.backgroundColor = `#000518`,
         buton2Element.style.border = `1px solid blue`,
-        buton2Element.style.color = 'blue',
         buton2Element.style.animation = `neon 7s alternate infinite ease-in-out`,
         buton2Element.style.backgroundColor = `#000518`,
-        
+        ballElement.style.animation = `neon 7s alternate infinite ease-in-out`,
+        ballElement.style.backgroundColor ='blue'
     ];
 return tudo
 }
@@ -73,6 +82,8 @@ function light(){
         buton2Element.style.color = 'black'
         buton2Element.style.animation = `none`
         buton2Element.style.backgroundColor = `#efefef`
+        ballElement.style.backgroundColor ='black',
+        ballElement.style.animation = 'none'
  
 }
 

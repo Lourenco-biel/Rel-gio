@@ -32,10 +32,13 @@
         </div>
     </div>
     <div class="digital">--:--:--</div><br>
-    <label>
-    <button class="button-dark"  onclick="noturno()">Modo dark</button>
-    <button class="button-light"  onclick="light()">Modo light</button>
+    <label for="checkbox" class="toggler">
+        <input type="checkbox" id="checkbox" onclick="checkFluency()">
+        <span class="ball"></span>
+        <i class="ri-sun-line sun" >🌞</i>
+        <i class="ri-moon-line moon">🌚</i>
     </label>
+
     <script src="script.js"></script>
 </body>
 </html>
